@@ -28,6 +28,6 @@ func (a *App) Greet(name string) string {
 
 // SubmitLogin .
 func (a *App) SubmitLogin(name string, passwd string) int {
-	fmt.Print("call SubmitLogin")
+	fmt.Printf("call SubmitLogin, name = %s, passwd = %s\n", name, passwd)
 	return 0
 }
